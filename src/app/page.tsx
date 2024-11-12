@@ -1,4 +1,10 @@
-import Image from "next/image";
+// src/app/page.tsx
+import Header from './components/Header';
+import PersonalInfo from './components/PersonalInfo';
+import Experience from './components/Experience';
+import Education from './components/Education';
+import Skill from './components/Skill';
+import Image from 'next/image'; // Import Image component from next/image
 
 export default function Home() {
   return (
@@ -99,3 +105,4 @@ export default function Home() {
     </div>
   );
 }
+

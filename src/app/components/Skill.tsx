@@ -1,9 +1,9 @@
 // src/app/components/Skills.tsx
 import React from 'react';
 
-const Skills: React.FC = () => {
+const Skill: React.FC = () => {
   return (
-    <section className="bg-white p-6 rounded shadow-md mb-4">
+    <section className="bg-gray-200 p-6 rounded shadow-md mb-4">
       <h2 className="text-xl font-bold mb-4">Skills</h2>
       <div className="text-gray-700">
         <ul className="list-disc list-inside">
@@ -18,4 +18,4 @@ const Skills: React.FC = () => {
   );
 };
 
-export default Skills;
+export default Skill;

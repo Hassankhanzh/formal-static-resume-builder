@@ -3,12 +3,13 @@ import React from 'react';
 
 const Education: React.FC = () => {
   return (
-    <section className="bg-white p-6 rounded shadow-md mb-4">
+    <section className="bg-gray-200 p-6 rounded shadow-md mb-4">
       <h2 className="text-xl font-bold mb-4">Education</h2>
       <div className="text-gray-700">
-        <h3 className="font-semibold">Bachelor of Science in Electronic Engineering</h3>
-        <p>Sir Syed University  of Engineering and Technology</p>
-        <p>GPA: 3.0/4.0</p>
+        <h3 className="font-semibold">Bachelor of Technology (B-Tech Mechanical)</h3>
+        <p>NED University  of Engineering and Technology</p>
+        <p>Division First</p>
+        <p>hello</p>
       </div>
     </section>
   );

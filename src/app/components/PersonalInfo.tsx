@@ -3,13 +3,13 @@ import React from 'react';
 
 const PersonalInfo: React.FC = () => {
   return (
-    <section className="bg-white p-6 rounded shadow-md mb-4">
+    <section className="bg-gray-200 p-6 rounded shadow-md mb-4">
       <h2 className="text-xl font-bold mb-4">Personal Information</h2>
       <div className="text-gray-700">
-        <p><strong>Name:</strong> Shoaib</p>
-        <p><strong>Title:</strong> Electronic Engineer</p>
-        <p><strong>Email:</strong> shoaibstar876@gmail.com</p>
-        <p><strong>Phone:</strong> 0333-3277622</p>
+        <p><strong>Name:</strong> Muhammad Hassan Khan</p>
+        <p><strong>Title:</strong> Mechanical Engineer</p>
+        <p><strong>Email:</strong> m.hassankhan85@gmail.com</p>
+        <p><strong>Phone:</strong> 0346-2112200</p>
       </div>
     </section>
   );
